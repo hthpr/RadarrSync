@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.8-alpine
 
 # Necessary for build hooks
 ARG BUILD_DATE
