@@ -127,7 +127,7 @@ for server in Config.sections():
                 logging.debug('{0} already in {1} library'.format(movie['title'], server))
         else:
             logging.debug('Skipping {0}, wanted profile: {1} found profile: {2}'.format(movie['title'],
-                                                                                        movie['profileId'],
+                                                                                        movie['qualityProfileId'],
                                                                                         int(ConfigSectionMap(server)['profile'])
                                                                                         ))
 
